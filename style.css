@@ -20,6 +20,11 @@
     box-shadow:  -10px 0 15px -8px rgb(179, 178, 178), 10px 0 15px -8px rgb(179, 178, 178);
 }
 
+.container-fluid {
+    display: flex;
+    justify-content: center;
+}
+
 .display-pic img {
     height: 100vh;
 }
@@ -41,8 +46,20 @@
     gap: 50px
 }
 
+.user-form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
 h1 {
     font-size: 50px;
+}
+
+.user-form p {
+    font-size: 30px;
+    text-align: center
+
 }
 
 .tag-line {
@@ -52,4 +69,10 @@ h1 {
 form {
     font-size: 20px;
     font-weight: bold;
+}
+
+input {
+    width: 100%;
+    
+
 }

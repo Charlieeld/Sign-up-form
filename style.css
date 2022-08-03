@@ -73,6 +73,13 @@ form {
 
 input {
     width: 100%;
-    
+    font-size: 22px;
+}
 
+form button {
+    margin-top: 10px;
+    font-size: 22px;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
 }
